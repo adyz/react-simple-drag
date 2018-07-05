@@ -1,8 +1,8 @@
-import * as React from "react";
-import { render } from "react-dom";
-import Resizable from "./Resizable";
+import * as React from 'react';
+import { render } from 'react-dom';
+import Resizable from './Resizable';
 
-import "./app.css";
+import './app.css';
 
 const App = () => (
   <div>
@@ -10,4 +10,4 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));

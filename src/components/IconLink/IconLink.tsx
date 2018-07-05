@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react';
 
-import "./iconlink.css";
+import './iconlink.css';
 
 interface Props {
   className: string;

@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react';
 
-import "./tile.css";
+import './tile.css';
 
 interface Props {
   className: string;

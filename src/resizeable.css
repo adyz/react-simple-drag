@@ -14,26 +14,35 @@
   margin: 0 auto;
   display: flex;
   position: relative;
+  height: 180px;;
 }
 
 .block {
   width: 50%;
-  box-shadow: inset 1px 1px 5px rgba(255, 255, 255, 0.3);
+  overflow: auto;
+  height: 150px;
+  position: relative;
 }
 
 .block__content {
-  display: flex;
   align-items: center;
   height: 100%;
   padding: 1rem;
+  display: block;
+  position: absolute;
 }
 
 .block__tile {
   margin: 0.5em;
+  display: block;
+  float: left;
 }
 
 .block__iconLink {
   margin: 0.5em;
+  margin: 0.5em;
+  display: block;
+  float: left;
 }
 
 .separator__ui,
