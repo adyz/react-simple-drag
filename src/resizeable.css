@@ -1,0 +1,59 @@
+:root {
+  --separator-width: 20px;
+  --separtor-height: 100px;
+}
+.parent {
+  background: #5663bb;
+  position: relative;
+  text-align: left;
+  overflow: auto;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.block {
+  width: 50%;
+  box-shadow: inset 1px 1px 5px rgba(255, 255, 255, 0.3);
+}
+
+.block__content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+.block__tile {
+  margin: 0.5em;
+}
+
+.block__iconLink {
+  margin: 0.5em;
+}
+
+.separator__ui,
+.separator__invisible {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: var(--separator-width);
+  margin-left: calc(-1 * var(--separator-width)/2);
+  top: 50%;
+  height: var(--separtor-height);
+  margin-top: calc(-1 * var(--separtor-height) / 2);
+
+  background: white;
+  z-index: 2;
+}
+
+.separator__invisible {
+  cursor: col-resize;
+  z-index: 3;
+  opacity: 0;
+  background: red;
+}

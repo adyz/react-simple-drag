@@ -1,0 +1,18 @@
+.iconLink {
+  color: #fff;
+  text-align: center;
+  font-size: 0.87em;
+  width: 100px;
+  position: relative;
+}
+
+.iconLink__label {
+  position: absolute;
+  top: 32px;
+  left: 0;
+}
+
+.iconLink svg {
+  width: 22px;
+  height: 22px;
+}

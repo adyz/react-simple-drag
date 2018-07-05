@@ -1,0 +1,13 @@
+.tile {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 120px;
+  padding: 0.5rem;
+  font-size: 0.87em;
+}
+
+.tile p {
+  margin: 0;
+  padding: 0;
+}
