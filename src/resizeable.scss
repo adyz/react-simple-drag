@@ -1,42 +1,48 @@
 :root {
   --separator-width: 20px;
-  --separtor-height: 100px; }
-
+  --separtor-height: 100px;
+}
 .parent {
   background: #5663bb;
   position: relative;
   text-align: left;
-  overflow: auto; }
+  overflow: auto;
+}
 
 .wrapper {
   width: 80%;
   margin: 0 auto;
   display: flex;
   position: relative;
-  height: 180px; }
+  height: 180px;;
+}
 
 .block {
   width: 50%;
   overflow: auto;
   height: 150px;
-  position: relative; }
-  .block__content {
+  position: relative;
+  &__content {
     align-items: center;
     height: 100%;
     padding: 1rem;
     display: block;
-    position: absolute; }
+    position: absolute;
+  }
+}
 
 .block__tile {
   margin: 0.5em;
   display: block;
-  float: left; }
+  float: left;
+}
 
 .block__iconLink {
   margin: 0.5em;
   margin: 0.5em;
   display: block;
-  float: left; }
+  float: left;
+}
 
 .separator__ui,
 .separator__invisible {
@@ -48,11 +54,14 @@
   top: 50%;
   height: var(--separtor-height);
   margin-top: calc(-1 * var(--separtor-height) / 2);
+
   background: white;
-  z-index: 2; }
+  z-index: 2;
+}
 
 .separator__invisible {
   cursor: col-resize;
   z-index: 3;
   opacity: 0;
-  background: red; }
+  background: red;
+}
